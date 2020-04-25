@@ -1,0 +1,6 @@
+[submodule "src/mongo/db/modules/rocks"]
+	path = src/mongo/db/modules/rocks
+	url = https://github.com/mongodb-partners/mongo-rocks.git
+[submodule "rocksdb"]
+	path = rocksdb
+	url = https://github.com/wolfkdy/rocksdb.git
