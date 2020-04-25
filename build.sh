@@ -1,6 +1,7 @@
 #!/bin/bash
 
 PREFIX="${PREFIX:-./mongo_build}"
+pip install --user cheetah typing pyyaml
 cd rocksdb
 USE_RTTI=1 CFLAGS=-fPIC make shared_lib -j8; INSTALL_PATH="$PREFIX" make install;
 cd ..
